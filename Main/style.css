@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  font-family: "Jacques Francois", serif;
+}
+
+header {
+  position: sticky;
+  padding: 0px 50px;
+  background-color: #ececd5;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.brand {
+  font-family: "Lobster Two", cursive;
+  font-size: 27px;
+}
+.logo-img {
+  width: 49px;
+  height: 49px;
+}
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#active {
+  font-size: 20px;
+  color: #000000;
+}
+.menu {
+  padding: 0 30px;
+  font-size: 15px;
+  color: #00000079;
+}
+.menu:hover{
+    color: #000000;
+}
+body {
+  background-color: #f1f0e9;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-txt{
+    font-size: 27px;
+    padding: 20px;
+}
+
+.box1-container{
+    background-color: #C7C4A8;
+    width: 100vw;
+    height: 75vh;
+}
