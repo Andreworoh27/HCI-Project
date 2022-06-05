@@ -89,6 +89,12 @@ header {
 .store-container img{
     width: 541px;
     height: 359.53px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.store-container img:hover{
+  transform: scale(1.14);
 }
 
 .store-title{
@@ -127,6 +133,12 @@ header {
 .kontaks img{
     width: 52px;
     height: 52px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.kontaks img:hover{
+  transform: scale(1.7);
 }
 
 .kontaks{

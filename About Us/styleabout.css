@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: "Jacques Francois", serif;
+}
+
+header {
+    position: sticky;
+    padding: 0px 50px;
+    background-color: #ececd5;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .brand {
+    font-family: "Lobster Two", cursive;
+    font-size: 27px;
+  }
+  .logo-img {
+    width: 49px;
+    height: 49px;
+  }
+  .navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #active {
+    font-size: 20px;
+    color: #000000;
+  }
+  .menu {
+    padding: 0 30px;
+    font-size: 15px;
+    color: #00000079;
+    text-decoration: none;
+  }
+  .menu:hover {
+    color: #000000;
+  }
+
+  body {
+    background-color: #f1f0e9;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 27px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.history{
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.kotak-hitam-tipis{
+    width: 100%;
+    background-color: black;
+    height: 1px;
+  }
+
+.img-container img{
+    width: 374px;
+    height: 326px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.img-container img:hover{
+  transform: scale(1.14);
+}
+
+.img-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    background-color: #ececd5;
+    padding: 30px;
+  }
