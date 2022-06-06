@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  font-family: "Jacques Francois", serif;
+}
+header {
+  position: sticky;
+  padding: 0px 50px;
+  background-color: #ececd5;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.brand {
+  font-family: "Lobster Two", cursive;
+  font-size: 27px;
+}
+.logo-img {
+  width: 49px;
+  height: 49px;
+}
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#active {
+  font-size: 20px;
+  color: #000000;
+}
+.menu {
+  padding: 0 30px;
+  font-size: 15px;
+  color: #00000079;
+  text-decoration: none;
+}
+.menu:hover {
+  color: #000000;
+}
+body {
+  background-color: #f1f0e9;
+}
+.membership-text {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.form-container{
+    background-color: #ECECD5;
+    width: 593px;
+    /* height: 100vh; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    height: 20px;
+    padding: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.radio{
+    width: 20px;
+}
+.dailyletterinput{
+    height: 90px;
+    padding: 0px;
+}
+textarea{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 20px;
+    width: 40%;
+    height: 59px;
+    align-self: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #CACAB7;
+    color: white;
+    font-size: 1.5rem;
+}
+button:hover{
+    background-color: #a9a999;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  background-color: #ececd5;
+  padding: 30px;
+}
