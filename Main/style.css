@@ -94,42 +94,41 @@ body {
   width: 100%;
   height: 100%;
 } */
-.categories-img{
+.categories-img {
   width: 100%;
   height: 100%;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  transition:0.4s;
+  transition: 0.4s;
 }
-.acoustic{
+.acoustic {
   background-image: url(../Img/Main/acoustic.png);
   transition: 0.4s;
 }
-.acoustic:hover{
+.acoustic:hover {
   background-image: url(../Img/Main/acoustic\ description.png);
 }
-.classic{
+.classic {
   background-image: url(../Img/Main/classic.png);
   transition: 0.4s;
 }
-.classic:hover{
+.classic:hover {
   background-image: url(../Img/Main/classic\ description.png);
 }
-.electric{
+.electric {
   background-image: url(../Img/Main/electric.png);
   transition: 0.4s;
 }
-.electric:hover{
+.electric:hover {
   background-image: url(../Img/Main/electric\ description.png);
 }
-.bass{
+.bass {
   background-image: url(../Img/Main/bass.png);
   transition: 0.4s;
 }
-.bass:hover{
+.bass:hover {
   background-image: url(../Img/Main/bass\ description.png);
 }
-
 
 .box2-container {
   display: flex;
@@ -144,9 +143,10 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20%;
+  transition: 0.4s;
 }
-.brand-container-out:hover{
-  width: 21%;
+.brand-container-out:hover {
+  transform: scale(1.1);
 }
 .brand-container-in {
   width: 100%;
@@ -176,8 +176,8 @@ body {
   width: 250px;
   height: 300px;
 }
-.Gibson {
-  width: 250px;
+.Gibson img {
+  width: 100%;
   height: 300px;
 }
 .brand-img {
@@ -191,4 +191,76 @@ footer {
   margin-top: 90px;
   background-color: #ececd5;
   padding: 30px;
+}
+
+@media screen and (max-width: 430px) {
+  /* navbar */
+  header {
+    width: 414;
+    background-color: #ececd5;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-container {
+    position: relative;
+    padding: 0px 0px;
+  }
+  .navbar-menu {
+    width: 414px;
+  }
+  .menu {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #00000079;
+    text-decoration: none;
+  }
+  #active {
+    font-size: 15px;
+    color: #000000;
+  }
+  /* navbar-end */
+
+  .box1-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Promotion-container {
+    width: 100%;
+  }
+  .Categories-container {
+    width: 100%;
+  }
+  .box2-container {
+    flex-direction: column;
+  }
+  .brand-container-out {
+    width: 55%;
+    height: 300px;
+    margin: 30px 0px;
+  }
+  .brand-img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo-img-container {
+    height: 200px;
+  }
+  .Yamaha {
+    width: 250px;
+  }
+  .Gibson img {
+    transform: scale(0.8);
+  }
+  .seagull {
+    width: 250px;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    background-color: #ececd5;
+    padding: 30px;
+  }
 }
