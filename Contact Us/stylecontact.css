@@ -175,7 +175,7 @@ footer {
   padding: 30px;
 }
 
-@media screen and (max-width: 430px) {
+@media only screen and (max-width: 430px) {
   /* navbar */
   header {
     width: 414;
@@ -205,9 +205,13 @@ footer {
   .working-container {
     width: 90%;
     padding: 60px 20px;
+    flex-direction: column;
+  }
+  .working-title {
+    margin-bottom: 25px;
   }
   .title {
-    font-size: 1.7rem;
+    display: none;
   }
   .working-title {
     font-size: 1.5rem;
@@ -245,13 +249,12 @@ footer {
   .customer-title {
     font-size: 1.4rem;
   }
-  .customer-title img {
-    width: 50px;
-    height: 50px;
+  .customer-service img {
+    display: none;
   }
   .contacts img {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
   }
   .desc {
     font-size: 1rem;
