@@ -91,6 +91,7 @@ body {
   height: 359.53px;
   transform: scale(1);
   transition: 0.3s ease-in-out;
+  border-radius: 20px;
 }
 
 .store-container img:hover {
@@ -173,6 +174,25 @@ footer {
   margin-top: 90px;
   background-color: #ececd5;
   padding: 30px;
+}
+
+@media only screen and (max-width: 1180px) and (min-width: 430px){
+  .store-container img{
+    transform: scale(0.9);
+  }
+  .store-container img:hover{
+    transform: scale(1);
+  }
+
+  .kontaks img:hover{
+    transform: scale(1.4);
+  }
+  .store-title{
+    transform: scale(0.9);
+  }
+  .address{
+    transform: scale(0.9);
+  }
 }
 
 @media only screen and (max-width: 430px) {

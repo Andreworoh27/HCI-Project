@@ -119,7 +119,7 @@ body {
 }
 
 .card:hover {
-  transform: scale(1);
+  transform: scale(1.1);
 }
 
 button {
@@ -192,6 +192,58 @@ footer {
 .section-end {
   padding-top: 60px;
   padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1180px) and (min-width: 1025px){
+  .section{
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+  .section-end{
+    padding: 0px;
+  }
+  .card{
+    transform: scale(0.8);
+  }
+  .card:hover{
+    transform: scale(0.9);
+  }
+  footer{
+    margin-top: 50px;
+  }
+  .card-container{
+    position: relative;
+    top: -65px;
+  }
+  .section-title{
+    padding-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 431px){
+  .section{
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+  .section-end{
+    padding: 0px;
+  }
+  .card{
+    transform: scale(0.7);
+  }
+  .card:hover{
+    transform: scale(0.8);
+  }
+  footer{
+    margin-top: 50px;
+  }
+  .card-container{
+    position: relative;
+    top: -65px;
+  }
+  .section-title{
+    padding-left: 80px;
+  }
 }
 
 @media screen and (max-width: 430px) {
